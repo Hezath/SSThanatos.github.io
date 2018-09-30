@@ -1,0 +1,46 @@
+* { margin: 0; padding: 0; }
+body{
+	background-color: #1E90FF;
+
+}
+
+#Ficha{
+	margin-left: 2%;
+	box-shadow: 3px 3px 15px 1px rgba(0,0,0,0.5);
+	width: 30%;
+	height: 700px;
+	background-color: white;
+}
+
+.descrição{
+	position: relative;
+	left: 100px;
+	top: 20px;
+	font-family: 'Slabo 27px', serif;
+	font-size: 25px;
+	}
+.descrição2{
+	position: relative;
+	font-family: 'Slabo 27px', serif;
+	font-size: 24px;
+}
+
+#retrato{
+	box-shadow: 3px 3px 15px 1px rgba(0,0,0,0.5);
+	position: relative;
+	left: 100px;
+	width: 200px;
+	height: 200px;
+}
+
+#detalhes{
+	position: relative;
+	right: 150px;
+	float:right;
+	box-shadow: 3px 3px 15px 1px rgba(0,0,0,0.5);
+	background-color: white;
+}
+#star{
+	width: 2% ;
+	height: 2% ;
+}
