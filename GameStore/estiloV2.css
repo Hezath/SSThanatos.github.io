@@ -1,0 +1,282 @@
+* { margin: 0; padding: 0; }
+body{
+	background-image: url(Fundo/orangesky.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+#Menu{
+	position: relative;
+    margin: auto;
+    background-image: url(Fundo/Central.jpg);
+    border: 3px solid #FD6A02;
+    width: 80%;
+    height: 10%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+   margin-top: 10px;
+}
+p.bigtitle{
+	text-align: center;
+	font-size: 400%;
+	color: white;
+	position: relative;
+	top: 28px;
+	font-family: 'Josefin Sans', sans-serif; 
+}
+/* Astronauta*/
+#items{
+	position: fixed;
+	top: 50px;
+	left: -80px;
+	width: 150px;
+	height: 150px;
+	border: 2px solid #D4D4D4;
+	border-radius: 100%;
+	background-image: url(imgs/Icon.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	opacity: 0.5;
+	
+}
+#items:Hover{
+	background-image: url(imgs/Icon.jpg);
+	opacity: 1.0;	
+}
+
+
+#Chat{
+	background-image: url(Fundo/planet.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	border: 3px solid #FD6A02;
+	height: 190px;
+
+}
+#falaback{
+	position: relative;
+	background-color: white;
+	opacity: 0.7;
+	width: 65%;
+	margin-left: 225px;
+	top: 30px;
+
+
+}
+.fala{
+	font-family: 'Russo One', sans-serif;
+	font-size: 20px;
+}
+
+#Astro{
+	width: 190px;	
+	height: 180px;
+	box-shadow: 3px 3px 15px 1px rgba(0,0,0,0.5);
+	background-image: url(imgs/Astro.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: relative;
+	bottom: 90px;
+	left: 5px;
+}
+#back{
+	background-color: #793802;
+	width: 96%;
+	margin-left: 2%;
+	height: 2050px;
+
+}
+/*1ª: Moonlighter*/
+#backimage{
+	position: relative;
+	top: 40px;
+	margin-left: 2%;
+	width: 500px;
+	height: 600px;
+	background-color: #B1560F;
+	box-shadow: 3px 3px 15px 1px rgba(0,0,0,0.5);
+
+}
+#image1{
+	max-width: 500px;
+	height: 300px;
+	box-shadow: 3px 3px 15px 1px rgba(0,0,0,0.5);
+	background-image: url(imgs/Moon.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+p.description{
+	font-family: 'Sawarabi Gothic', sans-serif;
+	font-size: 20px;
+}
+
+/*Botão*/
+.SpaceBack{
+	background-image: url(Fundo/planet.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	margin-top: 5%;
+	height: 133px;
+}
+.StoneS{
+	height:70px;
+	width: 70px;
+}
+
+.btn{
+	color: #D4D4D4;
+	font-family: 'Russo One', sans-serif;
+	font-size: 40px;
+	text-transform: uppercase;
+	font-weight: 700;
+	border: none;
+	cursor: pointer;
+	display: inline-block;
+	text-decoration: none;
+	position: relative;
+	margin-left: 25%;
+	top: 30%;
+
+}
+
+/*lista*/
+
+
+
+table.categoria {
+	margin-top: 20px;
+	font-family: 'Sawarabi Gothic', sans-serif;
+	position: relative;
+	left:25px;
+	font-size: 20px;
+}
+
+
+/*2ªJogo: Grim Fandango*/
+#backimage2{
+	margin-top: 4%;
+	margin-left: 2%;
+	width: 500px;
+	height: 600px;
+	background-color: #B1560F;
+	box-shadow: 3px 3px 15px 1px rgba(0,0,0,0.5);
+}
+#image2{
+	width: 500px;
+	height: 300px;
+	box-shadow: 3px 3px 15px 1px rgba(0,0,0,0.5);
+	background-image: url(imgs/Fandango.jpg);
+	background-size: 500px 300px;
+	background-repeat: no-repeat;
+
+}
+
+
+
+/*3ªJogo: Crash*/
+#backimage3{
+	position: relative;
+	bottom: 700px;
+	margin-left: 81px;
+	width: 500px;
+	height: 600px;
+	background-color: #B1560F;
+	box-shadow: 3px 3px 15px 1px rgba(0,0,0,0.5);
+}
+#image3{
+	width: 500px;
+	height: 300px;
+	box-shadow: 3px 3px 15px 1px rgba(0,0,0,0.5);
+	background-image: url(imgs/Crash.jpg);
+	background-size: 500px 300px;
+	background-repeat: no-repeat;
+}
+
+
+/*4ªJogos: Wonder Boy*/
+#backimage4{
+	position: relative;
+	bottom: 2600px;
+	margin-left: 72%;
+	width: 500px;
+	height: 600px;
+	background-color: #B1560F;
+	box-shadow: 3px 3px 15px 1px rgba(0,0,0,0.5);
+}
+#image4{
+	width: 500px;
+	height: 300px;
+	box-shadow: 3px 3px 15px 1px rgba(0,0,0,0.5);
+	background-image: url(imgs/Wonder.jpg);
+	background-size: 500px 300px;
+	background-repeat: no-repeat;
+}
+
+/*5ªJogo: Rise of Tomb Raider*/
+#backimage5{
+	position: relative;
+	bottom: 2560px;
+	margin-left: 72%;
+	width: 500px;
+	height: 600px;
+	background-color: #B1560F;
+	box-shadow: 3px 3px 15px 1px rgba(0,0,0,0.5);
+}
+#image5{
+	width: 500px;
+	height: 300px;
+	box-shadow: 3px 3px 15px 1px rgba(0,0,0,0.5);
+	background-image: url(imgs/Rise.jpg);
+	background-size: 500px 300px;
+	background-repeat: no-repeat;
+}
+/*6ªJogo: Resident Evil Reveletions*/
+#backimage6{
+	position: relative;
+	bottom: 2480px;
+	margin-left: 72%;
+	width: 500px;
+	height: 600px;
+	background-color: #B1560F;
+	box-shadow: 3px 3px 15px 1px rgba(0,0,0,0.5);
+}
+#image6{
+	width: 500px;
+	height: 300px;
+	box-shadow: 3px 3px 15px 1px rgba(0,0,0,0.5);
+	background-image: url(imgs/Resident.jpg);
+	background-size: 500px 300px;
+	background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

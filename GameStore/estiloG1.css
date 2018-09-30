@@ -1,0 +1,153 @@
+* { margin: 0; padding: 0; }
+body{
+	background-image: url(Fundo/Grim3.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+#Menu{
+	position: relative;
+	background-image: url(Fundo/Grim2.jpg);
+    margin: auto;
+    border: 3px solid #FD6A02;
+    width: 80%;
+    height: 10%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+   margin-top: 10px;
+}
+p.bigtitle{
+	text-align: center;
+	font-size: 500%;
+	color: white;
+	position: relative;
+	left: 100px;
+	top: 40px;
+	margin: auto;
+	font-family: 'Josefin Sans', sans-serif; 
+}
+/*Fundo e screenshots*/
+.back{
+	border: 2px solid #FD6A02;
+	width: 96%;
+	margin: auto;
+	margin-top: 2%;
+	height: 1000px;
+	
+}
+
+.descrição{
+	position: relative;
+	bottom: 550px;
+	font-family: 'Russo One', sans-serif;
+	font-size: 20px;
+	color: white;
+	z-index: 2;
+	margin-left: 1%;	
+}
+
+#images{
+	margin-left: 2%;
+	margin-top: 2%;
+	width: 300px;
+	height: 803px;
+	border: 2px solid #FD6A02;
+	
+}
+#image1{
+	background-image: url(Screen/Grim1.jpg);
+	background-size: 120%;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 300px;
+	height: 200px;
+	border-bottom: 1px solid #FD6A02;
+	 
+}
+
+#image2{
+	background-image: url(Screen/Grim2.jpg);
+	background-size: 120%;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 300px;
+	height: 200px;
+}
+
+#image3{
+	background-image: url(Screen/Grim3.jpg);
+	background-size: 120%;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-top: 1px solid #FD6A02;
+	width: 300px;
+	height: 200px;
+}
+
+#image4{
+	background-image: url(Screen/Grim4.jpg);
+	background-size: 120%;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-top: 1px solid #FD6A02;
+	width: 300px;
+	height: 200px;
+
+	
+
+}
+#blanco{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	color: black;
+	float: left;
+	position: relative;
+	left: 350px;
+	top: 4%;
+	background: white;
+	opacity: 0.8;
+
+}
+
+#Forma{
+	font-family: 'Josefin Sans', sans-serif;
+	color: white;
+	margin-left: 22%;
+	float: left;
+	position: relative;
+	top: 10%;
+}
+
+/*botão*/
+.btn{
+	margin-left: 3%;
+	margin-top: 1%;
+	font-family: 'Russo One', sans-serif;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: 700;
+	border: none;
+	padding: 10px;
+	cursor: pointer;
+	display: inline-block;
+	text-decoration: none;;
+}
+.btn-green{
+	background: green;
+	color: #fff;
+	box-shadow: 0 5px 0 #006000;
+}
+.btn-green:hover{
+	background: #006000;
+	color: #fff;
+	box-shadow: 0 5px 0 #003f00;
+}
+.btn-green:active{
+	position: relative;
+	top: 5px;
+	box-shadow: none;
+}
+
+
+
