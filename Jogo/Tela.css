@@ -1,0 +1,58 @@
+* { margin: 0; padding: 0; }
+body{
+	background-color: #323531;
+}
+
+.npc{
+	position: relative;
+	top: 20px;
+	margin: auto;
+	border: 3px solid black;
+	border-radius: 100%;
+	width: 200px;
+	height: 200px;
+	background-image: url(Ibagens/npc.jpg);
+	background-position: center;
+	background-size: 100%;
+}
+
+#back{
+	background-image: url(Ibagens/papel.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-top: 5%;
+	box-shadow: 3px 3px 15px 1px rgba(0,0,0,0.5);	
+}
+
+.texto{
+	margin-left: 20px;
+	font-family: 'Goudy Bookletter 1911', serif;
+	font-size: 21px;
+}
+
+#Treino{
+	background-image: url(Ibagens/Treine.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: auto;
+	margin-top: 2%;
+	width: 300px;
+	height: 300px;
+}
+
+#text{
+	text-align: center;
+	margin-left: 20px;
+	font-family: 'Goudy Bookletter 1911', serif;
+	font-size: 24px;
+	text-decoration: none;
+	color: black;
+}
+#white{
+	background-color: white;
+	opacity: 0.8;
+}
+#linkpark{
+	text-decoration: none;
+}
